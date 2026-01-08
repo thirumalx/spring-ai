@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:146.0) Gecko/20100101 Firefox/146.0" version="29.2.10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0" version="29.2.3">
   <diagram name="Page-1" id="GNHO50e_edLNp0kPFqFy">
-    <mxGraphModel dx="1747" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1722" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lXDhzq1VPQThQzrFADkE-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="300" width="300" x="-280" y="220" as="geometry" />
+        </mxCell>
         <mxCell id="wtWwQewitn9Wt63esXJt-61" edge="1" parent="1" source="wtWwQewitn9Wt63esXJt-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;" target="wtWwQewitn9Wt63esXJt-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -27,13 +30,13 @@
         <mxCell id="wtWwQewitn9Wt63esXJt-63" edge="1" parent="1" source="wtWwQewitn9Wt63esXJt-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;" target="wtWwQewitn9Wt63esXJt-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wtWwQewitn9Wt63esXJt-60" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" value="LLM" vertex="1">
+        <mxCell id="wtWwQewitn9Wt63esXJt-60" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" value="&lt;div&gt;LLM&lt;/div&gt;&lt;div&gt;1. Reasoning&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;Answer Generation&lt;/div&gt;&lt;div&gt;..&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="250" y="610" as="geometry" />
         </mxCell>
         <mxCell id="wtWwQewitn9Wt63esXJt-73" edge="1" parent="1" source="wtWwQewitn9Wt63esXJt-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;" target="wtWwQewitn9Wt63esXJt-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wtWwQewitn9Wt63esXJt-64" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" value="Actor" vertex="1">
+        <mxCell id="wtWwQewitn9Wt63esXJt-64" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" value="NeSL User" vertex="1">
           <mxGeometry height="60" width="30" x="-230" y="610" as="geometry" />
         </mxCell>
         <mxCell id="wtWwQewitn9Wt63esXJt-67" edge="1" parent="1" source="wtWwQewitn9Wt63esXJt-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;" target="wtWwQewitn9Wt63esXJt-58">
@@ -50,7 +53,7 @@
         <mxCell id="wtWwQewitn9Wt63esXJt-70" edge="1" parent="1" source="wtWwQewitn9Wt63esXJt-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;" target="wtWwQewitn9Wt63esXJt-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wtWwQewitn9Wt63esXJt-69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" value="Application" vertex="1">
+        <mxCell id="wtWwQewitn9Wt63esXJt-69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" value="&lt;div&gt;Application&lt;/div&gt;(Spring Boot)" vertex="1">
           <mxGeometry height="60" width="120" x="-70" y="610" as="geometry" />
         </mxCell>
         <mxCell id="wtWwQewitn9Wt63esXJt-74" edge="1" parent="1" source="wtWwQewitn9Wt63esXJt-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.158;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;" target="wtWwQewitn9Wt63esXJt-58">
@@ -60,6 +63,9 @@
           <mxGeometry relative="1" x="0.0796" y="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lXDhzq1VPQThQzrFADkE-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Data Ingestion" vertex="1">
+          <mxGeometry height="30" width="110" x="-190" y="520" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

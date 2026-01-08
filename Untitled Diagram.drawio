@@ -18,7 +18,7 @@
         </mxCell>
         <mxCell id="wtWwQewitn9Wt63esXJt-68" connectable="0" parent="wtWwQewitn9Wt63esXJt-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#1A1A1A;" value="[0.12, 0.34, 0.4, 0.1]" vertex="1">
           <mxGeometry relative="1" x="-0.5043" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wtWwQewitn9Wt63esXJt-58" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" value="&lt;div&gt;Embedding&amp;nbsp;&lt;/div&gt;&lt;div&gt;Model&lt;/div&gt;" vertex="1">
@@ -30,8 +30,8 @@
         <mxCell id="wtWwQewitn9Wt63esXJt-63" edge="1" parent="1" source="wtWwQewitn9Wt63esXJt-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;" target="wtWwQewitn9Wt63esXJt-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wtWwQewitn9Wt63esXJt-60" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" value="&lt;div&gt;LLM&lt;/div&gt;&lt;div&gt;1. Reasoning&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;Answer Generation&lt;/div&gt;&lt;div&gt;..&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="250" y="610" as="geometry" />
+        <mxCell id="wtWwQewitn9Wt63esXJt-60" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;LLM&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;1. Reasoning&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;Answer Generation&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;3.&amp;nbsp;Citation Mapping&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="140" x="250" y="610" as="geometry" />
         </mxCell>
         <mxCell id="wtWwQewitn9Wt63esXJt-73" edge="1" parent="1" source="wtWwQewitn9Wt63esXJt-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;" target="wtWwQewitn9Wt63esXJt-69">
           <mxGeometry relative="1" as="geometry" />
@@ -44,14 +44,19 @@
         </mxCell>
         <mxCell id="wtWwQewitn9Wt63esXJt-72" connectable="0" parent="wtWwQewitn9Wt63esXJt-67" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#1A1A1A;" value="data Objects" vertex="1">
           <mxGeometry relative="1" x="0.5438" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wtWwQewitn9Wt63esXJt-66" parent="1" style="sketch=0;outlineConnect=0;fontColor=#1A1A1A;fillColor=#5D7F99;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.file_system;labelBackgroundColor=none;" value="Private Content (Unstructured)" vertex="1">
           <mxGeometry height="73" width="78" x="-180" y="380" as="geometry" />
         </mxCell>
-        <mxCell id="wtWwQewitn9Wt63esXJt-70" edge="1" parent="1" source="wtWwQewitn9Wt63esXJt-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;" target="wtWwQewitn9Wt63esXJt-60">
+        <mxCell id="wtWwQewitn9Wt63esXJt-70" edge="1" parent="1" source="wtWwQewitn9Wt63esXJt-69" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;shape=link;" target="wtWwQewitn9Wt63esXJt-60">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lXDhzq1VPQThQzrFADkE-3" connectable="0" parent="wtWwQewitn9Wt63esXJt-70" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Response + References" vertex="1">
+          <mxGeometry relative="1" x="-0.11" y="-2" as="geometry">
+            <mxPoint y="8" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="wtWwQewitn9Wt63esXJt-69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" value="&lt;div&gt;Application&lt;/div&gt;(Spring Boot)" vertex="1">
           <mxGeometry height="60" width="120" x="-70" y="610" as="geometry" />
@@ -61,7 +66,7 @@
         </mxCell>
         <mxCell id="wtWwQewitn9Wt63esXJt-75" connectable="0" parent="wtWwQewitn9Wt63esXJt-74" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#1A1A1A;" value="Query" vertex="1">
           <mxGeometry relative="1" x="0.0796" y="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lXDhzq1VPQThQzrFADkE-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Data Ingestion" vertex="1">
